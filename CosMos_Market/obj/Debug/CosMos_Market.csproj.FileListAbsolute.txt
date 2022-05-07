@@ -1,0 +1,14 @@
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\bin\Debug\CosMos_Market.exe.config
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\bin\Debug\CosMos_Market.exe
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\bin\Debug\CosMos_Market.pdb
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\obj\Debug\CosMos_Market.csproj.AssemblyReference.cache
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\obj\Debug\CosMos_Market.csproj.SuggestedBindingRedirects.cache
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\obj\Debug\CosMos_Market.Properties.Resources.resources
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\obj\Debug\CosMos_Market.UserLogin.resources
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\obj\Debug\CosMos_Market.csproj.GenerateResource.cache
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\obj\Debug\CosMos_Market.csproj.CoreCompileInputs.cache
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\obj\Debug\CosMos_Market.exe
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\obj\Debug\CosMos_Market.pdb
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\bin\Debug\DataAccessLayer.dll
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\bin\Debug\DataAccessLayer.pdb
+C:\Users\303\source\repos\CosMos_Market\CosMos_Market\obj\Debug\CosMos_Market.csproj.CopyComplete

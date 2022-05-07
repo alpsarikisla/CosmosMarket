@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosMos_Market", "CosMos_Market\CosMos_Market.csproj", "{E5FD133C-55F5-462E-B6BA-6C597F7A72A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{9C317294-3153-4146-A958-B5E9AE6BE189}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5FD133C-55F5-462E-B6BA-6C597F7A72A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FD133C-55F5-462E-B6BA-6C597F7A72A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FD133C-55F5-462E-B6BA-6C597F7A72A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FD133C-55F5-462E-B6BA-6C597F7A72A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C317294-3153-4146-A958-B5E9AE6BE189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C317294-3153-4146-A958-B5E9AE6BE189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C317294-3153-4146-A958-B5E9AE6BE189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C317294-3153-4146-A958-B5E9AE6BE189}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00108CCE-42AF-41E5-8AA4-6836B9188070}
+	EndGlobalSection
+EndGlobal
