@@ -4,3 +4,9 @@ C:\Users\303\source\repos\CosMos_Market\DataAccessLayer\obj\Debug\DataAccessLaye
 C:\Users\303\source\repos\CosMos_Market\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\303\source\repos\CosMos_Market\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\303\source\repos\CosMos_Market\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\303\Documents\GitHub\CosmosMarket\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\303\Documents\GitHub\CosmosMarket\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\303\Documents\GitHub\CosmosMarket\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\303\Documents\GitHub\CosmosMarket\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\303\Documents\GitHub\CosmosMarket\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\303\Documents\GitHub\CosmosMarket\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

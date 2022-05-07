@@ -45,5 +45,34 @@ namespace DataAccessLayer
                 con.Close();
             }
         }
+
+        public List<Category> GetCategories()
+        {
+            List<Category> Categories = new List<Category>();
+            try
+            {
+                cmd.CommandText = "SELECT * FROM Categories";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Category c = new Category();
+                    c.ID = reader.GetInt32(0);
+                    c.Name = reader.GetString(1);
+                    c.Description = reader.GetString (2);
+                    Categories.Add(c);
+                }
+                return Categories;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
     }
 }

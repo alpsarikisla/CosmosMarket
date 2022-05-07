@@ -33,6 +33,7 @@ namespace CosMos_Market
                 if (u != null)
                 {
                     girisVar = true;
+                    ActiveUser.user = u;
                     this.Close();
                 }
                 else
