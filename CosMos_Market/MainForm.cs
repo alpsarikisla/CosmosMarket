@@ -22,22 +22,38 @@ namespace CosMos_Market
 
         private void TSMI_CategoryFormOpen_Click(object sender, EventArgs e)
         {
+            OpenForm(new CategoryForm());
+        }
+
+        private void TSMI_OpenProductForm_Click(object sender, EventArgs e)
+        {
+            OpenForm(new ProductForm());
+        }
+
+        private void TSMI_OpenBrandForm_Click(object sender, EventArgs e)
+        {
+            OpenForm(new BrandForm());
+        }
+
+        public void OpenForm(Form frm)
+        {
             Form[] OpenForms = this.MdiChildren;
             bool isopen = false;
-            foreach (Form frm in OpenForms)
+            foreach (Form item in OpenForms)
             {
-                if (frm.GetType() == typeof(CategoryForm))
+                if (frm.GetType() == item.GetType())
                 {
                     isopen = true;
-                    frm.Activate();
+                    item.Activate();
                 }
             }
             if (isopen == false)
             {
-                CategoryForm frm = new CategoryForm();
                 frm.MdiParent = this;
                 frm.Show();
             }
         }
+
+       
     }
 }

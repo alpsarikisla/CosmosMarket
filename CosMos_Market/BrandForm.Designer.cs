@@ -1,6 +1,6 @@
 ﻿namespace CosMos_Market
 {
-    partial class CategoryForm
+    partial class BrandForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,40 +29,52 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn_update = new System.Windows.Forms.Button();
             this.btn_ekle = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.tb_description = new System.Windows.Forms.TextBox();
             this.tb_name = new System.Windows.Forms.TextBox();
             this.tb_ID = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cb_durum = new System.Windows.Forms.CheckBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.TSMI_Guncelle = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMI_Sil = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupBox1.SuspendLayout();
+            this.TSMI_guncelle = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMI_sil = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 195);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(776, 243);
+            this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseDown);
+            // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cb_durum);
             this.groupBox1.Controls.Add(this.btn_update);
             this.groupBox1.Controls.Add(this.btn_ekle);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.tb_description);
             this.groupBox1.Controls.Add(this.tb_name);
             this.groupBox1.Controls.Add(this.tb_ID);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(776, 159);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Kategori Bilgileri";
+            this.groupBox1.Text = "Marka Bilgileri";
             // 
             // btn_update
             // 
@@ -90,9 +102,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(19, 74);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Açıklama:";
+            this.label3.Text = "Durum:";
             // 
             // label2
             // 
@@ -112,14 +124,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "ID:";
             // 
-            // tb_description
-            // 
-            this.tb_description.Location = new System.Drawing.Point(78, 71);
-            this.tb_description.Multiline = true;
-            this.tb_description.Name = "tb_description";
-            this.tb_description.Size = new System.Drawing.Size(229, 74);
-            this.tb_description.TabIndex = 0;
-            // 
             // tb_name
             // 
             this.tb_name.Location = new System.Drawing.Point(78, 45);
@@ -135,54 +139,51 @@
             this.tb_ID.Size = new System.Drawing.Size(229, 20);
             this.tb_ID.TabIndex = 0;
             // 
-            // dataGridView1
+            // cb_durum
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 195);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(776, 243);
-            this.dataGridView1.TabIndex = 1;
-            this.dataGridView1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseDown);
+            this.cb_durum.AutoSize = true;
+            this.cb_durum.Location = new System.Drawing.Point(78, 74);
+            this.cb_durum.Name = "cb_durum";
+            this.cb_durum.Size = new System.Drawing.Size(47, 17);
+            this.cb_durum.TabIndex = 4;
+            this.cb_durum.Text = "Aktif";
+            this.cb_durum.UseVisualStyleBackColor = true;
             // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TSMI_Guncelle,
-            this.TSMI_Sil});
+            this.TSMI_guncelle,
+            this.TSMI_sil});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(121, 48);
             // 
-            // TSMI_Guncelle
+            // TSMI_guncelle
             // 
-            this.TSMI_Guncelle.Name = "TSMI_Guncelle";
-            this.TSMI_Guncelle.Size = new System.Drawing.Size(120, 22);
-            this.TSMI_Guncelle.Text = "Güncelle";
-            this.TSMI_Guncelle.Click += new System.EventHandler(this.TSMI_Guncelle_Click);
+            this.TSMI_guncelle.Name = "TSMI_guncelle";
+            this.TSMI_guncelle.Size = new System.Drawing.Size(180, 22);
+            this.TSMI_guncelle.Text = "Güncelle";
+            this.TSMI_guncelle.Click += new System.EventHandler(this.TSMI_guncelle_Click);
             // 
-            // TSMI_Sil
+            // TSMI_sil
             // 
-            this.TSMI_Sil.Name = "TSMI_Sil";
-            this.TSMI_Sil.Size = new System.Drawing.Size(120, 22);
-            this.TSMI_Sil.Text = "Sil";
-            this.TSMI_Sil.Click += new System.EventHandler(this.TSMI_Sil_Click);
+            this.TSMI_sil.Name = "TSMI_sil";
+            this.TSMI_sil.Size = new System.Drawing.Size(180, 22);
+            this.TSMI_sil.Text = "Sil";
+            this.TSMI_sil.Click += new System.EventHandler(this.TSMI_sil_Click);
             // 
-            // CategoryForm
+            // BrandForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "CategoryForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "CategoryForm";
-            this.Load += new System.EventHandler(this.CategoryForm_Load);
+            this.Name = "BrandForm";
+            this.Text = "BrandForm";
+            this.Load += new System.EventHandler(this.BrandForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -190,18 +191,18 @@
 
         #endregion
 
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btn_update;
+        private System.Windows.Forms.Button btn_ekle;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tb_description;
         private System.Windows.Forms.TextBox tb_name;
         private System.Windows.Forms.TextBox tb_ID;
-        private System.Windows.Forms.Button btn_ekle;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.CheckBox cb_durum;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem TSMI_Guncelle;
-        private System.Windows.Forms.ToolStripMenuItem TSMI_Sil;
-        private System.Windows.Forms.Button btn_update;
+        private System.Windows.Forms.ToolStripMenuItem TSMI_guncelle;
+        private System.Windows.Forms.ToolStripMenuItem TSMI_sil;
     }
 }

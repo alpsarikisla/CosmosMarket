@@ -44,13 +44,15 @@
             this.tb_userName.Name = "tb_userName";
             this.tb_userName.Size = new System.Drawing.Size(170, 20);
             this.tb_userName.TabIndex = 0;
+            this.tb_userName.Text = "alpod";
             // 
             // tb_password
             // 
             this.tb_password.Location = new System.Drawing.Point(88, 56);
             this.tb_password.Name = "tb_password";
             this.tb_password.Size = new System.Drawing.Size(170, 20);
-            this.tb_password.TabIndex = 2;
+            this.tb_password.TabIndex = 1;
+            this.tb_password.Text = "1234";
             this.tb_password.UseSystemPasswordChar = true;
             // 
             // label1

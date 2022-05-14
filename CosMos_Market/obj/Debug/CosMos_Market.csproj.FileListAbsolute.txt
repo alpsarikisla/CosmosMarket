@@ -28,3 +28,6 @@ C:\Users\303\Documents\GitHub\CosmosMarket\CosMos_Market\obj\Debug\CosMos_Market
 C:\Users\303\Documents\GitHub\CosmosMarket\CosMos_Market\obj\Debug\CosMos_Market.exe
 C:\Users\303\Documents\GitHub\CosmosMarket\CosMos_Market\obj\Debug\CosMos_Market.pdb
 C:\Users\303\Documents\GitHub\CosmosMarket\CosMos_Market\obj\Debug\CosMos_Market.CategoryForm.resources
+C:\Users\303\Documents\GitHub\CosmosMarket\CosMos_Market\obj\Debug\CosMos_Market.ProductForm.resources
+C:\Users\303\Documents\GitHub\CosmosMarket\CosMos_Market\obj\Debug\CosMos_Market.BrandForm.resources
+C:\Users\303\Documents\GitHub\CosmosMarket\CosMos_Market\obj\Debug\CosMos_Market.AddCategory.resources
